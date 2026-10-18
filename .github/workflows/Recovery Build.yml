@@ -12,7 +12,7 @@ on:
 
         required: true
 
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
 
       MANIFEST_BRANCH:
 
@@ -20,7 +20,7 @@ on:
 
         required: true
 
-        default: 'twrp-12.1'
+        default: 'twrp-10.0-deprecated'
 
       DEVICE_TREE_URL:
 
@@ -28,7 +28,7 @@ on:
 
         required: true
 
-        default: 'https://github.com/dextterblog/twrp_Tecno_KG5J'
+        default: 'https://github.com/mayank5-cmd/device_infinix_x682c.git'
 
       DEVICE_TREE_BRANCH:
 
@@ -36,7 +36,7 @@ on:
 
         required: true
 
-        default: 'android-11'
+        default: 'android-10.0'
 
       DEVICE_PATH:
 
@@ -44,7 +44,7 @@ on:
 
         required: true
 
-        default: 'device/tecno/TECNO-KG5j'
+        default: 'device/infinix/X682C'
 
       COMMON_TREE_URL:
 
@@ -64,7 +64,7 @@ on:
 
         required: true
 
-        default: 'KG5j-OP'
+        default: 'X682C'
 
       MAKEFILE_NAME:
 
@@ -72,7 +72,7 @@ on:
 
         required: true
 
-        default: 'TECNO-KG5j'
+        default: 'omni_X682C'
 
       BUILD_TARGET:
 
@@ -80,7 +80,7 @@ on:
 
         required: true
 
-        default: 'boot'
+        default: 'recovery'
 
 jobs:
 
